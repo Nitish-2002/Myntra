@@ -1,0 +1,31 @@
+
+.Main--Card{
+   
+    &--heading img{
+        width: 100%;
+
+    }
+    &--subtitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -53px;
+        color: white;
+        & img{
+            width: 10px;
+            height: 10px;
+            margin-left: 10px;
+        }
+    }
+    &--Card{
+        display: flex;
+        flex-wrap: wrap;
+        & div img{
+            width: 245px;
+            height: 300px;
+            margin: 3px 3px;
+        }
+    }
+
+
+}

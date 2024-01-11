@@ -1,0 +1,31 @@
+.footer {
+  background-color: #FAFBFC;
+  &--options {
+    width: 64%;
+    margin: auto;
+    &--option {
+      & h4 {
+        
+        color: #282c3f;
+      
+      }
+      & p{
+        color: #696b79;
+          display: block;
+          font-size: 15px;
+          text-decoration: none;
+          padding-bottom: 5px;
+          cursor: pointer;
+          line-height: normal;
+      }
+      & ul li{
+        display: block;
+          font-size: 15px;
+          text-decoration: none;
+          padding-bottom: 5px;
+          cursor: pointer;
+          line-height: normal;
+      }
+    }
+  }
+}

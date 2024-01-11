@@ -1,0 +1,13 @@
+.main-card--logo{
+    width: 100%;
+    display: flex;
+    & img{
+        width: 100%;
+    }
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

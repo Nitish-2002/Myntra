@@ -1,0 +1,70 @@
+.login {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #FDEEED;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &--email,
+    &--password {
+        height: 31px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    &--button {
+
+        background-color: #ff3f6c;
+        text-align: center;
+        padding: 12px 132px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &--signup--button{
+        padding: 10px 115px;
+        background-color: #ff3f6c;
+        color: #fff;
+    }
+}
+.signup{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #FDEEED;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &--email,
+    &--password {
+        height: 31px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    &--button {
+
+        background-color: #ff3f6c;
+        text-align: center;
+        padding: 12px 132px;
+        margin-bottom: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    &--login--button{
+        padding: 10px 115px;
+        background-color: #ff3f6c;
+        color: #fff;
+    }
+    &--validations{
+        color: red;
+    }
+}

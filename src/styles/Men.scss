@@ -1,0 +1,57 @@
+.Card--Main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.Card {
+    margin: 10px;
+    &--img img {
+        width: 210px;
+        height: 280px;
+    }
+
+    &--info {
+        &--heading {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1;
+            color: #282c3f;
+            margin-bottom: 6px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        &--matter{
+            color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+        }
+    }
+    &--product{
+        &--price{
+        font-size: 14px;
+        font-weight: 700;
+        color: #282c3f;
+        }
+        &--strick{
+            text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+        }
+        &--discount{
+            color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+        }
+    }
+}
